@@ -129,19 +129,19 @@
 			</div>
 
 			<div class="benefits__item">
-				<img data-src="img/pro-cam.png" class="benefits__icon lazy" alt="Professional Photographers">
+				<img data-src="img/icons/pro-cam.png" class="benefits__icon lazy" alt="Professional Photographers">
 				<h5>Professional</h5>
 				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, officia!</p>
 			</div>
 
 			<div class="benefits__item">
-				<img data-src="img/cheap-price.png" class="benefits__icon lazy" alt="Affordable">
+				<img data-src="img/icons/cheap-price.png" class="benefits__icon lazy" alt="Affordable">
 				<h5>Affordable</h5>
 				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</div>
 
 			<div class="benefits__item">
-				<img data-src="img/image.png" class="benefits__icon lazy" alt="High Quality Images">
+				<img data-src="img/icons/image.png" class="benefits__icon lazy" alt="High Quality Images">
 				<h5>High Quality</h5>
 				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sunt maxime eaque ea?</p>
 			</div>
