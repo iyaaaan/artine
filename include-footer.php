@@ -101,7 +101,7 @@
 <!-- External JS Files -->
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.lazy.min.js" defer></script>
-<script src="js/jquery-ui.min.js" defer></script>
+<script src="js/jquery-datepicker.min.js" defer></script>
 
 <script src="js/fotorama.js" defer></script>
 
