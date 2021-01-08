@@ -1,0 +1,11 @@
+.card {
+	padding: 1.5rem;
+	max-width: 100%;
+	height: auto;
+}
+
+.card__name {
+	font-family: var(--font-header);
+	color: var(--brand-color-light);
+	letter-spacing: 3px;
+}

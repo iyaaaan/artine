@@ -1,0 +1,101 @@
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+	color: transparent;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+label span {
+	color: #d60909;
+}
+
+input:not([type=submit]),
+textarea {
+	display: block;
+	background: var(--white);
+	border: none;
+	border-radius: 2px;
+	border-bottom: 1px solid #e6e6e6;
+	color: var(--color-secondary);
+	font-size: var(--font-extra-small);
+	font-family: var(--font-primary);
+	letter-spacing: 1.5px;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+	padding: 8px 10px;
+	width: 100%;
+	cursor: text;
+	transition: 0.2s ease;
+}
+
+textarea {
+	min-height: 20rem;
+	max-height: 30rem;
+	overflow: hidden;
+	resize: vertical;
+}
+
+input:not([type=submit]):focus,
+textarea:focus {
+	border-bottom: 2px solid var(--color-primary);
+	outline: 0;
+}
+
+label {
+	letter-spacing: 3px;
+	transition: 0.2s ease;
+	font-size: 12px;
+}
+
+input:not([type=submit]):placeholder-shown + label,
+textarea:placeholder-shown + label {
+	color: var(--color-primary);
+	cursor: text;
+	max-width: 66.66%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transform-origin: left bottom;
+	transform: translate(10px, 2.5rem);
+}
+
+::-webkit-input-placeholder {
+	opacity: 0;
+	transition: inherit;
+}
+
+input:not([type=submit]):focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	opacity: 1;
+}
+
+input:not([type=submit]):not(:placeholder-shown) + label,
+input:not([type=submit]):focus + label,
+textarea:not(:placeholder-shown) + label,
+textarea:focus + label {
+	transform: translate(0, 0) scale(1);
+	cursor: pointer;
+}
+
+textarea:not(:placeholder-shown) {
+	transform: translate(0, 0) scale(1);
+	cursor: pointer;
+	border-bottom: 2px solid var(--color-primary);
+}
+
+.input-wrap {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 1.5rem;
+}

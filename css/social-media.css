@@ -1,0 +1,13 @@
+/* ############ SOCIAL MEDIA ############ */
+.social-media {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	list-style-type: none;
+	margin: 1.5rem 0;
+}
+
+.social-media__item:not(:last-of-type) {
+	margin-right: 1.5rem;
+}

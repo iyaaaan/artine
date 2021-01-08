@@ -1,0 +1,156 @@
+.modal {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10rem 0;
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+	z-index: 50;
+}
+
+.modal.is-shown {
+	display: block;
+}
+
+.modal__content {
+	background-color: var(--white);
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	border-radius: 0.5rem;
+}
+
+.modal__content--lg {
+	width: 100%;
+	height: 100%;
+}
+
+.modal__content--md {
+	width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+	.modal__content--md {
+		width: 50rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.modal__content--md {
+		width: 70rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.modal__content--md {
+		width: 90rem;
+	}
+}
+
+.modal__content--sm {
+	width: 50rem;
+}
+
+.modal__slide {
+	animation: fade 1s;
+	padding: 1.5rem;
+	height: 100%;
+	width: 100%;
+}
+
+.modal__header {
+	border-bottom: 1px solid var(--color-whisper);
+}
+
+.modal__header,
+.modal__footer {
+	font-size: var(--font-medium);
+	text-align: right;
+	padding: 1.5rem;
+}
+
+.modal__footer {
+	border-top: 1px solid var(--color-whisper);
+}
+
+.modal__close {
+	color: var(--color-whisper);
+	transition: 0.3s ease;
+}
+
+.modal--prev,
+.modal--next {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: var(--white);
+	font-size: 3rem;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.modal--prev:hover,
+.modal--next:hover {
+	background: #000;
+	color: #fff !important;
+}
+
+.modal--next {
+	right: 2.5rem;
+}
+
+.modal--prev {
+	left: 2.5rem;
+}
+
+.modal--next:active,
+.modal--prev:active {
+	transform: translateY(-40%);
+}
+
+.modal__close-2 {
+	color: #919191;
+	position: absolute;
+	right: 25px;
+	font-size: 4.5rem;
+	font-weight: bold;
+	z-index: 10;
+	cursor: pointer;
+	line-height: 30px;
+	line-height: 30px;
+	padding: 1rem 1.2rem;
+	top: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: 0.3s ease;
+}
+
+.modal__close-2::after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	right: 0;
+	height: 0;
+	width: 0;
+	background: transparent;
+	border-left: 24.94px solid transparent;
+	border-right: 24.94px solid transparent;
+	border-top: 25px solid rgba(0, 0, 0, 0.7);
+	transition: 0.3s ease;
+}
+
+.modal__close-2:hover {
+	background: #000 !important;
+	color: #fff;
+}
+
+.modal__close-2:hover::after {
+	border-top: 25px solid black;
+}
