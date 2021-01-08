@@ -1,0 +1,190 @@
+/* ############ SUBTITLE ############ */
+.sub-title {
+	flex: 0 0 100%;
+	margin-bottom: 7.5rem;
+	text-align: center;
+	font-size: var(--font-large);
+	color: #8e440c;
+	font-family: var(--font-title);
+	font-weight: normal;
+	position: relative;
+}
+
+.sub-title::after {
+	content: '';
+	position: absolute;
+	left: calc(50% - 2rem);
+	bottom: -1.3rem;
+	width: 4rem;
+	height: 1px;
+	background-color: #8e440c;
+}
+
+
+// Fits image in its container
+.img-fit {
+	display: block;
+	width: 100%;
+}
+
+.flex-center {
+	@extend .flex;
+	@extend .justify-center;
+	@extend .align-center;
+	@extend .flex-wrap;
+}
+
+
+/* ############ PARALLAX EFFECT ON BACKGROUND ############ */
+.bg-parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* ############ STAR RATING ############ */
+.star-rating-box {
+	position: relative;
+	vertical-align: middle;
+	font-size: 3rem;
+	font-family: FontAwesome;
+	display: inline-block;
+	color: orange;
+}
+
+.star-rating-box::before {
+	content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.star-rating-box .rating {
+	position: absolute;
+	left: 0;
+	top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #f1ad30;
+}
+
+.star-rating-box .rating::before {
+	content: "\f005 \f005 \f005 \f005 \f005";
+}
+
+
+/* ############ DIAGONAL BOX BG ############ */
+.svg-box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.svg-box path {
+	stroke: none;
+	fill: #fdf4ed;
+}
+
+/* ############ OVERLAY ############ */
+.overlay {
+	background-color: rgba(0, 0, 0, .3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+
+	&__text {
+		color: var(--white);
+		font-size: var(--font-small);
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.underlay {
+	background-color: rgba(0, 0, 0, .1);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+}
+
+/* ############ HERO ############ */
+.hero-parallax {
+	height: 50vh;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+
+	@include respond-to(medium) {
+		height: 80vh;
+		background-size: 100%;
+	}
+}
+
+.hero-banner {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-top: 8rem;
+}
+
+.highlight-banner {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 30rem;
+	width: 100%;
+}
+
+/* ############ SOCIAL MEDIA ############ */
+.social-media {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	list-style-type: none;
+	margin: 1.5rem 0;
+
+	&__item:not(:last-of-type) {
+		margin-right: 1.5rem;
+	}
+}
+
+
+/* ############ PRE-LOADER ############ */
+.pre-loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--white);
+	z-index: 99;
+
+	&__img {
+		width: 20rem;
+		display: block;
+
+		@include respond-to(small) {
+			width: 25rem;
+		}
+	}
+}

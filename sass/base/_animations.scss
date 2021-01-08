@@ -1,0 +1,73 @@
+@keyframes back-to-top {
+	from {
+		top: 10px;
+		opacity: 1;
+	}
+
+	to {
+		top: -8px;
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-out {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes flip {
+
+	0%,
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+
+	51% {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+}
+
+
+@keyframes skew-rotate {
+	0% {
+		transform: skew(0deg, 0deg);
+	}
+
+	25% {
+		transform: skew(10deg, 00deg);
+	}
+
+	50% {
+		transform: skew(-25deg, -7deg);
+	}
+
+	75% {
+		transform: skew(10eg, -21deg);
+	}
+
+	100% {
+		transform: skew(-12deg, -25deg);
+	}
+}

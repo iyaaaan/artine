@@ -1,0 +1,95 @@
+.package-text {
+	font-size: var(--font-small);
+	line-height: 2;
+	text-align: justify;
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: -3.5rem;
+		right: 2rem;
+		height: 7rem;
+		width: 5rem;
+		background-color: var(--color-primary);
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		@include respond-to(medium) {
+			top: -5rem;
+			right: 1.5rem;
+			height: 100px;
+			width: 80px;
+		}
+	}
+}
+
+.wedding-banner {
+	background-image: url(../img/banners/wedding-highlight.jpg);
+}
+
+.birthday-banner {
+	background-image: url(../img/banners/birthday-highlight.jpg);
+}
+
+.baby-banner {
+	background-image: url(../img/banners/baby-highlight.jpg);
+}
+
+.family-banner {
+	background-image: url(../img/banners/family-highlight.jpg);
+}
+
+.food-banner {
+	background-image: url(../img/banners/food-highlight.jpg);
+}
+
+.package {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	&__item {
+		flex: 0 0 83.333333%;
+		text-align: center;
+		padding: 0 1.5rem;
+		margin-bottom: 3rem;
+
+		@include respond-to(medium) {
+			flex: 0 0 33.333333%;
+			margin-bottom: 0;
+		}
+	}
+
+	&__name {
+		background-color: var(--color-primary);
+		color: var(--white);
+		font-family: var(--font-header);
+		font-size: var(--font-medium);
+		letter-spacing: 2px;
+		padding: 1.5rem 1rem;
+	}
+
+	&__price {
+		color: #dceddb;
+		font-family: var(--font-header);
+		font-size: var(--font-medium);
+		text-align: center;
+		display: block;
+		margin-top: 1rem;
+	}
+
+	&__content {
+		font-size: var(--font-extra-small);
+		margin-top: 2rem;
+		line-height: 2;
+		text-align: left;
+		list-style-position: inside;
+
+		& > li {
+			font-size: var(--font-extra-small);
+		}
+	}
+}

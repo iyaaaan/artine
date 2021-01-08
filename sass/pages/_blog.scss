@@ -1,0 +1,76 @@
+/* blog */
+.blog {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	&__item {
+		flex: 0 0 83.3333333333%;
+		box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+		transition: .2s ease;
+		margin-bottom: 1.5rem;
+		padding: 1.5rem;
+
+		&:hover {
+			box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+		}
+
+		@include respond-to(medium) {
+			box-shadow: 0 0;
+			flex: 0 0 50%;
+		}
+
+		@include respond-to(large) {
+			flex: 0 0 33.333333%;
+		}
+	}
+
+	&__title {
+		font-family: var(--font-title);
+		color: var(--black);
+	}
+
+	&__date {
+		color: var(--color-highlight);
+		font-size: var(--font-extra-small);
+		font-style: italic;
+		margin-top: 1.5rem;
+	}
+
+	&__desc {
+		font-size: var(--font-extra-small);
+		color: var(--black);
+		margin-top: 1.5rem;
+	}
+
+	&__info {
+		color: var(--color-highlight);
+		font-family: var(--font-title);
+		font-style: italic;
+		text-align: right;
+		letter-spacing: 1px;
+		margin-top: 1.5rem;
+		padding: 1.5rem
+	}
+
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 5rem;
+
+		&-link {
+			flex: 0 0 100%;
+
+			@include respond-to(small) {
+				flex: 0 0 auto;
+			}
+		}
+	}
+}
+
+
+/* Fotorama */
+.fotorama__wrap {
+	margin: 0 auto;
+}
