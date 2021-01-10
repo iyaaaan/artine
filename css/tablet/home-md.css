@@ -1,0 +1,44 @@
+/* ############ MEDIA QUERIES ############ */
+@media screen and (min-width: 768px) {
+  /* benefits section */
+  .benefits__item {
+    flex: 0 0 33.333337%;
+  }
+
+  /* services section */
+  .services__item {
+    flex: 0 0 50%;
+  }
+  .services__item:nth-of-type(3) {
+    order: 0;
+  }
+  .services__text {
+    margin-bottom: 1.5rem;
+  }
+
+  /* testimonials section */
+  .testimonials__img {
+    max-width: 18rem;
+    max-height: 18rem;
+  }
+  .testimonials__text-wrap {
+    flex: 0 0 58.333333%;
+  }
+
+  /* quote section */
+  .quote-sec {
+    height: 40vh;
+  }
+
+  /* email section */
+  .email-sec__content {
+    flex: 0 0 66.666667%;
+    padding: 0;
+  }
+  .email-sec__form {
+    flex: 0 0 66.666667%;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=home-md.css.map */

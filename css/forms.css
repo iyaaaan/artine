@@ -99,3 +99,18 @@ textarea:not(:placeholder-shown) {
 	flex-direction: column-reverse;
 	margin-bottom: 1.5rem;
 }
+
+.form-fields {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.form-fields__col {
+	flex: 0 0 100%;
+
+	@include respond-to(medium) {
+		flex: 0 0 48%;
+	}
+}

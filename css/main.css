@@ -3614,29 +3614,6 @@ hr {
   margin-right: 1.5rem;
 }
 
-/* ############ PRE-LOADER ############ */
-.pre-loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: var(--white);
-  z-index: 99;
-}
-.pre-loader__img {
-  width: 20rem;
-  display: block;
-}
-@media screen and (min-width: 576px) {
-  .pre-loader__img {
-    width: 25rem;
-  }
-}
-
 /* ############ BACK-TO-TOP BUTTON ############ */
 .back-to-top {
   background: var(--color-primary);
@@ -3909,6 +3886,8 @@ hr {
   border-top: 25px solid black;
 }
 
+/* ############ MEDIA QUERIES BREAKPONTS ############ */
+/* ############ BUTTONS ############ */
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -4053,6 +4032,31 @@ hr {
   display: block;
   margin: 0 auto 1.5rem;
 }
+.footer__about, .footer__terms, .footer__navigation, .footer__contact {
+  flex: 0 0 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer__about, .footer__terms, .footer__navigation, .footer__contact {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer__about {
+    flex: 33.3333333333%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer__terms, .footer__contact {
+    flex: 25%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer__navigation {
+    flex: 0 0 16.6666666667%;
+  }
+}
 .footer__nav-link:hover, .footer__nav-link.is-active {
   color: var(--color-secondary);
 }
@@ -4065,6 +4069,10 @@ hr {
 
 /* ############ SUB FOOTER ############ */
 .sub-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   background-color: var(--black);
   color: var(--white);
   font-size: 1.2rem;
@@ -4112,6 +4120,31 @@ hr {
   top: 0;
   right: -1.5rem;
   background-color: #fff;
+}
+
+/* ############ MEDIA QUERIES BREAKPONTS ############ */
+/* ############ BUTTONS ############ */
+/* ############ PRE-LOADER ############ */
+.pre-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white);
+  z-index: 99;
+}
+.pre-loader__img {
+  width: 20rem;
+  display: block;
+}
+@media screen and (min-width: 576px) {
+  .pre-loader__img {
+    width: 25rem;
+  }
 }
 
 /* ############ LAYOUT ############ */
@@ -4244,6 +4277,8 @@ textarea:not(:placeholder-shown) {
 }
 
 /* ############ PAGES ############ */
+/* ############ MEDIA QUERIES BREAKPONTS ############ */
+/* ############ BUTTONS ############ */
 /* ############### HERO SECTION ############### */
 .hero {
   background-image: url(../img/banners/hero-banner.jpg);

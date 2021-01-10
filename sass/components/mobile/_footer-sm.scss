@@ -1,0 +1,13 @@
+@import '../../base/mixins';
+
+@include respond-to(small) {
+	.footer {
+
+		&__about,
+		&__terms,
+		&__navigation,
+		&__contact {
+			flex: 0 0 50%;
+		}
+	}
+}

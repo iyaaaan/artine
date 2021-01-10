@@ -1,5 +1,3 @@
-@import '../base/mixins';
-
 /* ############### HERO SECTION ############### */
 .hero {
 	background-image: url(../img/banners/hero-banner.jpg);
@@ -8,10 +6,6 @@
 	background-position: 75%;
 	background-size: cover;
 	height: 100vh;
-
-	@include respond-to(large) {
-		justify-content: flex-start;
-	}
 
 	&__caption {
 		border: 0 solid var(--color-primary);
@@ -22,13 +16,6 @@
 		padding: 3rem;
 		margin-top: 4.5rem;
 		z-index: 30;
-
-		@include respond-to(large) {
-			flex: 0 0 50%;
-			border-width: .5rem;
-			text-align: left;
-			margin-left: 3rem;
-		}
 	}
 
 	&__header {
@@ -54,11 +41,6 @@
 				width: 4rem;
 				height: 2px;
 				background-color: var(--color-secondary);
-
-				@include respond-to(large) {
-					top: 50%;
-					left: 170px;
-				}
 			}
 		}
 	}
@@ -70,9 +52,6 @@
 		text-shadow: -1px 1px var(--black);
 		margin: 3rem 0;
 
-		@include respond-to(large) {
-			display: block;
-		}
 	}
 }
 
@@ -97,14 +76,6 @@
 		text-align: center;
 		margin: 1.5rem 0;
 		padding: 0 1.5rem;
-
-		@include respond-to(small) {
-			flex: 0 0 80%;
-		}
-
-		@include respond-to(medium) {
-			flex: 0 0 33.333337%;
-		}
 	}
 
 	&__icon {
@@ -128,23 +99,11 @@
 		&:nth-of-type(3) {
 			order: 5;
 		}
-
-		@include respond-to(medium) {
-			flex: 0 0 50%;
-
-			&:nth-of-type(3) {
-				order: 0;
-			}
-		}
 	}
 
 	&__text {
 		margin: 1.5rem 0 4.5rem 0;
 		padding: 0 3rem;
-
-		@include respond-to(medium) {
-			margin-bottom: 1.5rem;
-		}
 	}
 
 	&__header {
@@ -166,10 +125,6 @@
 		flex: 0 0 100%;
 		text-align: center;
 		padding: 0 1.5rem;
-
-		@include respond-to(large) {
-			flex: 0 0 33.333337%;
-		}
 	}
 
 	&__img {
@@ -179,21 +134,12 @@
 		max-height: 150px;
 		margin: 0 auto 1.5rem;
 		padding: 5px;
-
-		@include respond-to(medium) {
-			max-width: 18rem;
-			max-height: 18rem;
-		}
 	}
 
 	&__text-wrap {
 		flex: 0 0 83.333333%;
 		margin-top: 6rem;
 		padding-bottom: 3rem;
-
-		@include respond-to(medium) {
-			flex: 0 0 58.333333%;
-		}
 	}
 
 	&__text {
@@ -225,10 +171,6 @@
 		position: relative;
 		display: block;
 		text-align: center;
-
-		@include respond-to(large) {
-			text-align: left;
-		}
 	}
 }
 
@@ -265,10 +207,6 @@
 	height: 30vh;
 	position: relative;
 
-	@include respond-to(medium) {
-		height: 40vh;
-	}
-
 	&__text {
 		color: var(--white);
 		font-family: var(--font-title);
@@ -290,11 +228,6 @@
 		align-self: flex-start;
 		padding: 0 1.5rem;
 		margin-top: 3rem;
-
-		@include respond-to(large) {
-			flex: 0 0 50%;
-			margin-top: 0;
-		}
 	}
 
 	&__title {
@@ -335,18 +268,6 @@
 		flex: 0 0 100%;
 		padding: 0 1.5rem;
 		margin-bottom: 3rem;
-
-		@include respond-to(medium) {
-			flex: 0 0 66.666667%;
-			padding: 0;
-		}
-
-		@include respond-to(large) {
-			flex: 0 0 33.333334%;
-			flex-direction: column;
-			margin-right: 4.5rem;
-			margin-bottom: 0;
-		}
 	}
 
 	&__text {
@@ -360,18 +281,6 @@
 		color: var(--white);
 		padding: 1.5rem;
 
-		@include respond-to(small) {
-			flex: 0 0 50%;
-		}
-
-		//		@include respond-to(medium) {
-		//			flex: 0 0 33.333334%;
-		//		}
-
-		@include respond-to(large) {
-			margin-bottom: 1.5rem;
-		}
-
 		&-header {
 			font-family: var(--font-header);
 			font-size: var(--font-medium);
@@ -383,11 +292,6 @@
 	&__img {
 		flex: 0 0 50%;
 		display: none;
-
-		@include respond-to(small) {
-			//			flex: 0 0 33.333334%;
-			display: block;
-		}
 	}
 
 	&::after {
@@ -409,15 +313,6 @@
 	&__form {
 		flex: 0 0 100%;
 		padding: 0 1.5rem;
-
-		@include respond-to(medium) {
-			flex: 0 0 66.666667%;
-			padding: 0;
-		}
-
-		@include respond-to(large) {
-			flex: 0 0 50%;
-		}
 	}
 }
 
@@ -429,9 +324,5 @@
 
 	&__col {
 		flex: 0 0 100%;
-
-		@include respond-to(medium) {
-			flex: 0 0 48%;
-		}
 	}
 }

@@ -25,22 +25,20 @@ $(function () {
 });
 
 //Open Navigation bar
-$(function () {
-	function toggleNavbar() {
-		var opened = $(".js-navbar__menu").hasClass("is-opened");
-		var toggled = $(".js-navbar__bar").hasClass("is-toggled");
+function toggleNavbar() {
+	var opened = $(".js-navbar__menu").hasClass("is-opened");
+	var toggled = $(".js-navbar__bar").hasClass("is-toggled");
 
 
-		if (opened === false && toggled === false) {
-			$(".js-navbar__menu").addClass("is-opened");
-			$(".js-navbar__bar").addClass("is-toggled");
+	if (opened === false && toggled === false) {
+		$(".js-navbar__menu").addClass("is-opened");
+		$(".js-navbar__bar").addClass("is-toggled");
 
-		} else {
-			$(".js-navbar__menu").removeClass("is-opened");
-			$(".js-navbar__bar").removeClass("is-toggled");
-		}
+	} else {
+		$(".js-navbar__menu").removeClass("is-opened");
+		$(".js-navbar__bar").removeClass("is-toggled");
 	}
-});
+}
 
 
 //change bg-color of navbar on scroll

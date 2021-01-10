@@ -1,0 +1,7 @@
+@import '../../base/mixins';
+
+@include respond-to(medium) {
+	.navbar__logo {
+		width: 22rem;
+	}
+}
