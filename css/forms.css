@@ -109,8 +109,10 @@ textarea:not(:placeholder-shown) {
 
 .form-fields__col {
 	flex: 0 0 100%;
+}
 
-	@include respond-to(medium) {
+@media screen and (min-width: 768px) {
+	.form-fields__col {
 		flex: 0 0 48%;
 	}
 }

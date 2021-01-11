@@ -275,14 +275,4 @@
   padding: 0 1.5rem;
 }
 
-.form-fields {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.form-fields__col {
-  flex: 0 0 100%;
-}
-
 /*# sourceMappingURL=home.css.map */
