@@ -1,4 +1,4 @@
-<!-- blog modal -->
+<!-- privacy modal -->
 <div class="modal" id="privacy-modal">
 	<div class="modal__content modal__content--md">
 		<div class="modal__header">

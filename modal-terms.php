@@ -1,4 +1,4 @@
-<!-- blog modal -->
+<!-- terms modal -->
 <div class="modal" id="terms-modal">
 	<div class="modal__content modal__content--md">
 		<div class="modal__header">

@@ -96,38 +96,32 @@
 <!-- /. Footer -->
 
 
-
+<?php include('modal-terms.php') ?>
+<?php include('modal-privacy.php') ?>
 
 <!-- External JS Files -->
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery.lazy.min.js" defer></script>
-<script src="js/jquery-datepicker.min.js" defer></script>
+<script src="js/jquery-lazy-init.js" defer></script>
+<script src="js/jquery-lazy.min.js" defer></script>
 
-<script src="js/fotorama.js" defer></script>
+<!-- Pre-loader JS -->
+<script src="js/pre-loader.js"></script>
 
-<!--<script src="js/font-awesome.min.js"></script>-->
+<!-- Back to top JS -->
+<script src="js/back-to-top.js"></script>
 
-<!--Owl Carousel-->
-<script src="js/owl.carousel.min.js"></script>
+<!-- Navbar JS -->
+<script src="js/navbar.js"></script>
 
-<!--Isotope Js / Imagesloaded-->
-<script src="js/isotope.min.js" defer></script>
-<script src="js/imagesloaded.min.js" defer></script>
+<!-- Modal JS -->
+<script src="js/modal.js"></script>
 
-<!--Light Gallery-->
-<script src="js/lightgallery.min.js" defer></script>
-<script src="js/lg-fullscreen.min.js" defer></script>
-<script src="js/lg-thumbnail.min.js" defer></script>
-
-<!--AOS-->
+<!-- AOS -->
+<script src="js/aos-init.js"></script>
 <script src="js/aos.min.js"></script>
 
 <!--Main Script-->
 <script src="js/main.js"></script>
-
-
-<?php include('modal-terms.php') ?>
-<?php include('modal-privacy.php') ?>
 
 <script>
 	function openModal(d) {
