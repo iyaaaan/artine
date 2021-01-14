@@ -4,10 +4,10 @@
 <meta name="description" content="ArTine Photography is a team of expertly-trained photographers who captures the best shots for your special day. Artine Photography are open for Weddings, Birthdays, and Product Photography. They also have amazing paintings to decorate your home.">
 
 <!-- favicon -->
-<link rel="icon" href="img/favicon.png" />
+<link rel="icon" href="img/logos/artine-favicon.png" />
 
-<!-- External CSS File -->
-<link rel="stylesheet" href="css/main.css">
+<!-- jQuery UI - v1.9.2 -->
+<link rel="stylesheet" href="css/jquery-ui.min.css">
 
 <!-- Font Awesome 4.7.0 -->
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -23,10 +23,7 @@
 <link rel="stylesheet" href="css/lightgallery.min.css">
 
 <!-- AOS -->
-<link rel="stylesheet" href="css/aos.min.css">
+<link rel="stylesheet" href="css/aos.min.css"x>
 
-<!-- jQUery -->
-<link rel="stylesheet" href="css/datepicker.min.css">
-
-<!-- compiled main styles -->
+<!-- compiled css styles -->
 <link rel="stylesheet" href="css/main.css">

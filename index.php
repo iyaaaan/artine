@@ -62,27 +62,23 @@
 
 	<!-- Benefits section -->
 	<section id="benefits">
+		<div class="container-full benefits">
+			<div class="benefits__item" data-aos="flip-down" data-aos-delay="100">
+				<img data-src="img/icons/pro-cam.png" class="benefits__icon lazy" alt="Artine Professional Photographers">
+				<h5>Professional</h5>
+				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, officia!</p>
+			</div>
 
-		<div class="container-full bg-alt">
-			<div class="benefits">
+			<div class="benefits__item" data-aos="flip-down" data-aos-delay="200">
+				<img data-src="img/icons/cheap-price.png" class="benefits__icon lazy" alt="Affordable Artine Packages">
+				<h5>Affordable</h5>
+				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
 
-				<div class="benefits__item" data-aos="flip-down" data-aos-delay="100">
-					<img data-src="img/icons/pro-cam.png" class="benefits__icon lazy" alt="Artine Professional Photographers">
-					<h5>Professional</h5>
-					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, officia!</p>
-				</div>
-
-				<div class="benefits__item" data-aos="flip-down" data-aos-delay="200">
-					<img data-src="img/icons/cheap-price.png" class="benefits__icon lazy" alt="Affordable Artine Packages">
-					<h5>Affordable</h5>
-					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-
-				<div class="benefits__item" data-aos="flip-down" data-aos-delay="300">
-					<img data-src="img/icons/image.png" class="benefits__icon lazy" alt="High Quality Images">
-					<h5>High Quality Artine Images</h5>
-					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sunt maxime eaque ea?</p>
-				</div>
+			<div class="benefits__item" data-aos="flip-down" data-aos-delay="300">
+				<img data-src="img/icons/image.png" class="benefits__icon lazy" alt="High Quality Images">
+				<h5>High Quality Artine Images</h5>
+				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sunt maxime eaque ea?</p>
 			</div>
 		</div> <!-- ./container -->
 	</section> <!-- /. benefits section -->
@@ -188,7 +184,7 @@
 
 	<!-- Quote section -->
 	<section id="quote">
-		<div class="quote-sec flex-center lazy">
+		<div class="quote-sec flex-center">
 			<div class="overlay"></div>
 			<h2 class="quote-sec__text" data-aos="fade-up">"Capture Moments that Matter"</h2>
 		</div>
@@ -214,7 +210,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus iure ducimus facere, consectetur natus necessitatibus, aliquam ab dolore atque mollitia inventore molestiae rerum ut nesciunt, aliquid porro repellat beatae repellendus.</p>
 				</div>
 
-				<div class="featured__blogs">
+				<div class="featured-blogs">
 					<div class="ow1 owl-carousel owl-theme">
 
 						<div class="item">
@@ -312,7 +308,7 @@
 
 							<img class="owl-lazy" data-src="img/gallery/douglas-j-s-moreira/thumb-1.jpg" alt="Photo from unsplash.com">
 						</div>
-					</div>
+					</div> <!-- ./owl-carousel -->
 				</div> <!-- ./featured blogs -->
 			</div> <!-- ./flex-center -->
 		</div> <!-- ./container -->

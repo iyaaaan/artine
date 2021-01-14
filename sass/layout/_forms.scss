@@ -77,7 +77,7 @@ textarea:placeholder-shown + label {
 ::-webkit-input-placeholder {
 	opacity: 0;
 	transition: inherit;
-}e
+}
 
 input:not([type=submit]):focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {

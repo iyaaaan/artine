@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<?php include('include-head.php'); ?>
+	<?php include('include-header.php'); ?>
 
 	<title>A r t i N e | This Is Us</title>
 </head>
@@ -26,7 +26,7 @@
 
 	<!-- about-hero -->
 	<div class="hero-banner">
-		<img data-src="img/banners/about-banner.jpg" alt="Artine Photography Family" class="img-fit lazy">
+		<img src="img/banners/about-banner.jpg" alt="Artine Photography Family" class="img-fit">
 	</div>
 
 	<div class="container">
@@ -201,10 +201,6 @@
 	<!-- include footer -->
 	<?php include('include-footer.php') ?>
 
-
-
-
-
 	<!-- navbar active state -->
 	<script>
 		$(document).ready(function() {
@@ -234,6 +230,7 @@
 		}
 
 	</script>
+
 </body>
 
 </html>

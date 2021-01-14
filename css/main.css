@@ -3751,6 +3751,12 @@ hr {
   background-color: #dc4646;
 }
 
+.btn--fb,
+.btn--twit,
+.btn--insta {
+  color: var(--white);
+}
+
 .btn--fb:hover {
   color: #1583eb;
 }
@@ -4045,13 +4051,54 @@ hr {
   padding: 1.5rem;
   font-size: 1.2rem;
 }
+.footer__about, .footer__terms, .footer__navigation, .footer__contact {
+  flex: 0 0 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+@media screen and (min-width: 576px) {
+  .footer__about, .footer__terms, .footer__navigation, .footer__contact {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer__about {
+    flex: 0 0 33.3333333333%;
+  }
+  .footer__terms, .footer__contact {
+    flex: 0 0 25%;
+  }
+  .footer__navigation {
+    flex: 0 0 16.6666666667%;
+  }
+}
 .footer__header {
   font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 576px) {
+  .footer__header {
+    text-align: left;
+  }
 }
 .footer__about-img {
   width: 200px;
   display: block;
   margin: 0 auto 1.5rem;
+}
+.footer__nav {
+  text-align: center;
+  list-style: none;
+}
+@media screen and (min-width: 576px) {
+  .footer__nav {
+    text-align: left;
+  }
+}
+.footer__nav-link {
+  color: var(--white);
 }
 .footer__nav-link:hover, .footer__nav-link.is-active {
   color: var(--color-secondary);
@@ -4099,10 +4146,16 @@ hr {
   }
 }
 .sub-footer__legalities-link {
+  color: var(--white);
   cursor: pointer;
 }
-.sub-footer__legalities-link:hover {
+.sub-footer__legalities-link:hover, .sub-footer__legalities-link.is-active {
   text-decoration: line-through;
+}
+.sub-footer__legalities-item {
+  position: relative;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 .sub-footer__legalities-item:not(:last-child)::after {
   content: "";
@@ -4259,8 +4312,6 @@ textarea:not(:placeholder-shown) {
 }
 
 /* ############ PAGES ############ */
-/* ############ MEDIA QUERIES BREAKPONTS ############ */
-/* ############ BUTTONS ############ */
 /* ############### HERO SECTION ############### */
 .hero {
   background-image: url(../img/banners/hero-banner.jpg);
@@ -4344,6 +4395,7 @@ textarea:not(:placeholder-shown) {
 
 /* ############ BENEFITS SECTION ############ */
 .benefits {
+  background-color: var(--alt);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -4374,7 +4426,7 @@ textarea:not(:placeholder-shown) {
   margin: 1.5rem 0;
 }
 
-/* ############ BENEFITS SECTION ############ */
+/* ############ SERVICES SECTION ############ */
 .services__item {
   flex: 0 0 95%;
 }
@@ -4488,7 +4540,7 @@ textarea:not(:placeholder-shown) {
 
 .owl-next:hover,
 .owl-prev:hover {
-  background: #ecac5e !important;
+  background: #f79862 !important;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
@@ -4560,7 +4612,7 @@ textarea:not(:placeholder-shown) {
   left: 0;
   bottom: -10px;
 }
-.featured__blogs {
+.featured-blogs {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 3rem 1.5rem 0;
@@ -5345,9 +5397,7 @@ textarea:not(:placeholder-shown) {
   }
 }
 
-/* ############ MODALS ############ */
 .privacy {
-  width: 90%;
   margin: 5rem auto;
 }
 .privacy__item {
@@ -5355,5 +5405,14 @@ textarea:not(:placeholder-shown) {
   margin: 2rem 3rem;
   list-style: circle;
 }
+
+.terms {
+  line-height: 2;
+  text-align: justify;
+  list-style: circle;
+  margin: 5trm auto;
+}
+
+/* ############ MODALS ############ */
 
 /*# sourceMappingURL=main.css.map */

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<?php include('include-head.php'); ?>
+	<?php include('include-header.php'); ?>
 
 	<title>A r t i N e | Galería</title>
 
@@ -27,7 +27,7 @@
 
 	<!-- gallery-hero -->
 	<div class="hero-banner">
-		<img data-src="img/banners/gallery-banner.jpg" alt="Gallery Banner" class="img-fit lazy">
+		<img src="img/banners/gallery-banner.jpg" alt="Gallery Banner" class="img-fit">
 	</div>
 
 	<div class="container">

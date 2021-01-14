@@ -1,5 +1,3 @@
-@import '../base/mixins';
-
 /* ############### HERO SECTION ############### */
 .hero {
 	background-image: url(../img/banners/hero-banner.jpg);
@@ -87,6 +85,7 @@
 
 /* ############ BENEFITS SECTION ############ */
 .benefits {
+	background-color: var(--alt);
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -119,7 +118,7 @@
 }
 
 
-/* ############ BENEFITS SECTION ############ */
+/* ############ SERVICES SECTION ############ */
 .services {
 
 	&__item {
@@ -241,7 +240,7 @@
 
 .owl-next:hover,
 .owl-prev:hover {
-	background: #ecac5e !important;
+	background: #f79862 !important;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
@@ -319,7 +318,7 @@
 		}
 	}
 
-	&__blogs {
+	&-blogs {
 		flex: 0 0 100%;
 		max-width: 100%;
 		padding: 3rem 1.5rem 0;

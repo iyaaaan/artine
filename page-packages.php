@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<?php include('include-head.php'); ?>
+	<?php include('include-header.php'); ?>
 
 	<title>A r t i N e | Packages</title>
 </head>
@@ -27,7 +27,7 @@
 	<!-- Package hero -->
 	<section>
 		<div class="hero-banner">
-			<img data-src="img/banners/package-banner.jpg" alt="Photo of: andy-art" class="img-fit lazy">
+			<img src="img/banners/package-banner.jpg" alt="Photo of: andy-art" class="img-fit">
 		</div>
 	</section>
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<?php include('include-head.php'); ?>
+	<?php include('include-header.php'); ?>
 
 	<title>A r t i N e | Kian and Rose's Pre-Nuptial</title>
 </head>

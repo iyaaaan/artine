@@ -10,8 +10,43 @@
 	padding: 1.5rem;
 	font-size: 1.2rem;
 
+	&__about,
+	&__terms,
+	&__navigation,
+	&__contact {
+		flex: 0 0 100%;
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+
+		@include respond-to(small) {
+			flex: 0 0 50%;
+		}
+	}
+
+	@include respond-to(large) {
+		&__about {
+			flex: 0 0 33.3333333333%;
+		}
+
+		&__terms,
+		&__contact {
+			flex: 0 0 25%;
+		}
+
+		&__navigation {
+			flex: 0 0 16.6666666667%;
+		}
+	}
+
 	&__header {
 		font-size: 1.8rem;
+		text-align: center;
+		letter-spacing: .3rem;
+		margin-bottom: 1.5rem;
+
+		@include respond-to(small) {
+			text-align: left;
+		}
 	}
 
 	&__about-img {
@@ -21,8 +56,15 @@
 	}
 
 	&__nav {
+		text-align: center;
+		list-style: none;
+
+		@include respond-to(small) {
+			text-align: left;
+		}
 
 		&-link {
+			color: var(--white);
 
 			&:hover,
 			&.is-active {
@@ -75,11 +117,19 @@
 		}
 
 		&-link {
+			color: var(--white);
 			cursor: pointer;
 		}
 
-		&-link:hover {
+		&-link:hover,
+		&-link.is-active {
 			text-decoration: line-through;
+		}
+
+		&-item {
+			position: relative;
+			margin-right: 1.5rem;
+			margin-left: 1.5rem;
 		}
 
 		&-item:not(:last-child)::after {
@@ -89,7 +139,7 @@
 			width: 1px;
 			top: 0;
 			right: -1.5rem;
-			background-color: #fff
+			background-color: #fff;
 		}
 	}
 
