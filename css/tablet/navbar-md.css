@@ -1,8 +1,0 @@
-/* ############ MEDIA QUERIES ############ */
-@media screen and (min-width: 768px) {
-  .navbar__logo {
-    width: 22rem;
-  }
-}
-
-/*# sourceMappingURL=navbar-md.css.map */

@@ -16,6 +16,10 @@
 
 	&__logo {
 		width: 18rem;
+
+		@include respond-to(medium) {
+			width: 22rem;
+		}
 	}
 
 	&__menu {
@@ -33,6 +37,11 @@
 		transition: .5s linear;
 		overflow: hidden;
 
+		@include respond-to(large) {
+			flex: 0 0 auto;
+			max-height: 100%;
+		}
+
 		&.is-opened {
 			max-height: 50rem;
 		}
@@ -41,6 +50,14 @@
 	&__item {
 		flex: 0 0 100%;
 		margin-left: 0;
+
+		@include respond-to(large) {
+			flex: 0 0 auto;
+
+			&:not(:last-of-type) {
+				margin-right: 3rem;
+			}
+		}
 	}
 
 	&__link {

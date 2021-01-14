@@ -4,62 +4,29 @@
 <meta name="description" content="ArTine Photography is a team of expertly-trained photographers who captures the best shots for your special day. Artine Photography are open for Weddings, Birthdays, and Product Photography. They also have amazing paintings to decorate your home.">
 
 <!-- favicon -->
-<link rel="icon" href="img/logos/artine-favicon.png" />
+<link rel="icon" href="img/favicon.png" />
+
+<!-- External CSS File -->
+<link rel="stylesheet" href="css/main.css">
 
 <!-- Font Awesome 4.7.0 -->
 <link rel="stylesheet" href="css/font-awesome.min.css">
 
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="css/owl-carousel.min.css">
+<link rel="stylesheet" href="css/owl-theme.min.css">
+
+<!-- Fotorama -->
+<link rel="stylesheet" href="css/fotorama.min.css">
+
+<!-- LightGallery -->
+<link rel="stylesheet" href="css/lightgallery.min.css">
+
 <!-- AOS -->
-<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/aos.min.css">
 
 <!-- jQUery -->
-<link rel="stylesheet" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/datepicker.min.css">
 
-<!-- base styles-->
-<link rel="stylesheet" href="css/base.css">
-
-<!-- typhography -->
-<link rel="stylesheet" href="css/typhography.css">
-
-<!-- animations -->
-<link rel="stylesheet" href="css/animations.css">
-
-<!-- utilities -->
-<link rel="stylesheet" href="css/utilities.css">
-
-<!-- components -->
-<link rel="stylesheet" href="css/components.css">
-
-<!-- buttons -->
-<link rel="stylesheet" href="css/buttons.css">
-
-<!-- media icons -->
-<link rel="stylesheet" href="css/social-media.css">
-
-<!-- preloader -->
-<link rel="stylesheet" href="css/preloader.css">
-
-<!-- modal -->
-<link rel="stylesheet" href="css/modal.css">
-
-<!-- layout -->
-<link rel="stylesheet" href="css/layout.css">
-
-<!-- navbar style	-->
-<link rel="stylesheet" href="css/navbar.css">
-
-<!-- navbar style tablet -->
-<link rel='stylesheet' media='screen and (min-width: 768px) and (max-width: 991px)' href='css/tablet/navbar-md.css' />
-
-<!-- navbar style desktop-->
-<link rel='stylesheet' media='screen and (min-width: 992px)' href='css/desktop/navbar-lg.css' />
-
-
-<!-- footer style	-->
-<link rel='stylesheet' href='css/footer.css' />
-
-<!-- footer style mobile-tablet -->
-<link rel='stylesheet' media='screen and (min-width: 576px) and (max-width: 991px)' href='css/mobile/footer-sm.css' />
-
-<!-- footer style desktop-->
-<link rel='stylesheet' media='screen and (min-width: 992px)' href='css/desktop/footer-lg.css' />
+<!-- compiled main styles -->
+<link rel="stylesheet" href="css/main.css">

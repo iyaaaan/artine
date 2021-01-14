@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
 	<div class="footer">
-		<div class="footer__about">
+		<div class="footer__about flex-12 flex-6-sm flex-4-lg px-1">
 			<img src="img/logos/artine-logo.png" class="footer__about-img lazy" alt="">
 			<p class="footer__about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ad architecto laborum totam asperiores assumenda facere saepe quisquam debitis quos.</p>
 			<p class="footer__about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quibusdam?</p>
@@ -9,14 +9,14 @@
 
 		<hr class="bg-muted w-75 hide-on-sm">
 
-		<div class="footer__terms">
+		<div class="footer__terms flex-12 flex-6-sm flex-3-lg px-1">
 			<h5 class="footer__header text-center text-left-sm tracking-3 mb-1">Terms and Conditions</h5>
 			<p class="footer__terms-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro modi odio, vitae, veniam praesentium dicta libero inventore rem fuga qui?</p>
 		</div>
 
 		<hr class="bg-muted w-75 hide-on-sm">
 
-		<div class="footer__navigation">
+		<div class="footer__navigation flex-12 flex-6-sm flex-2-lg px-1">
 			<h5 class="footer__header text-center text-left-sm tracking-3 mb-1">Navigation</h5>
 			<ul class="footer__nav text-center text-left-sm list-none">
 				<li class="my-1">
@@ -42,7 +42,7 @@
 
 		<hr class="bg-muted w-75 hide-on-sm">
 
-		<div class="footer__contact">
+		<div class="footer__contact flex-12 flex-6-sm flex-3-lg px-1">
 			<h5 class="footer__header text-center text-left-sm tracking-3 mb-1">Contact Us</h5>
 			<ul class="fa-ul break-all">
 				<li><i class="fa-li fa fa-map-marker">
@@ -77,7 +77,7 @@
 		</div>
 	</div><!-- end c-footer -->
 
-	<div class="sub-footer">
+	<div class="sub-footer flex-center">
 		<div class="sub-footer__copyright">
 			<span>© 2020 Copyright: <a href="http://iyaaaan.github.io" target="_blank" class="text-secondary">Kristyan.</a> All Rights Reserved. </span>
 		</div>
@@ -96,32 +96,38 @@
 <!-- /. Footer -->
 
 
-<?php include('modal-terms.php') ?>
-<?php include('modal-privacy.php') ?>
+
 
 <!-- External JS Files -->
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery-lazy-init.js" defer></script>
-<script src="js/jquery-lazy.min.js" defer></script>
+<script src="js/jquery.lazy.min.js" defer></script>
+<script src="js/jquery-datepicker.min.js" defer></script>
 
-<!-- Pre-loader JS -->
-<script src="js/pre-loader.js"></script>
+<script src="js/fotorama.js" defer></script>
 
-<!-- Back to top JS -->
-<script src="js/back-to-top.js"></script>
+<!--<script src="js/font-awesome.min.js"></script>-->
 
-<!-- Navbar JS -->
-<script src="js/navbar.js"></script>
+<!--Owl Carousel-->
+<script src="js/owl.carousel.min.js"></script>
 
-<!-- Modal JS -->
-<script src="js/modal.js"></script>
+<!--Isotope Js / Imagesloaded-->
+<script src="js/isotope.min.js" defer></script>
+<script src="js/imagesloaded.min.js" defer></script>
 
-<!-- AOS -->
-<script src="js/aos-init.js"></script>
+<!--Light Gallery-->
+<script src="js/lightgallery.min.js" defer></script>
+<script src="js/lg-fullscreen.min.js" defer></script>
+<script src="js/lg-thumbnail.min.js" defer></script>
+
+<!--AOS-->
 <script src="js/aos.min.js"></script>
 
 <!--Main Script-->
 <script src="js/main.js"></script>
+
+
+<?php include('modal-terms.php') ?>
+<?php include('modal-privacy.php') ?>
 
 <script>
 	function openModal(d) {

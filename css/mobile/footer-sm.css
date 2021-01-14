@@ -1,8 +1,0 @@
-/* ############ MEDIA QUERIES BREAKPONTS ############ */
-@media screen and (min-width: 576px) {
-  .footer__about, .footer__terms, .footer__navigation, .footer__contact {
-    flex: 0 0 50%;
-  }
-}
-
-/*# sourceMappingURL=footer-sm.css.map */

@@ -1,30 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--hello mundo-->
 
 <head>
+
 	<?php include('include-header.php');  ?>
 
-	<!-- forms -->
-	<link rel="stylesheet" href="css/forms.css">
-
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-	<!-- home style -->
-	<link rel="stylesheet" href="css/home.css">
-
-	<!-- home style mobile-desktop -->
-	<link rel='stylesheet' media='screen and (min-width: 576px)' href='css/mobile/home-sm.css' />
-
-	<!-- home style tablet-desktop -->
-	<link rel='stylesheet' media='screen and (min-width: 576px)' href='css/tablet/home-md.css' />
-
-	<!-- home style desktop-->
-	<link rel='stylesheet' media='screen and (min-width: 992px)' href='css/desktop/home-lg.css' />
-
 	<title>A r t i N e | Photography</title>
+
 </head>
 
 <body>
@@ -85,20 +67,20 @@
 			<div class="benefits">
 
 				<div class="benefits__item" data-aos="flip-down" data-aos-delay="100">
-					<img data-src="img/icons/pro-cam.png" class="benefits__icon lazy" alt="Professional Photographers">
+					<img data-src="img/icons/pro-cam.png" class="benefits__icon lazy" alt="Artine Professional Photographers">
 					<h5>Professional</h5>
 					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, officia!</p>
 				</div>
 
 				<div class="benefits__item" data-aos="flip-down" data-aos-delay="200">
-					<img data-src="img/icons/cheap-price.png" class="benefits__icon lazy" alt="Affordable">
+					<img data-src="img/icons/cheap-price.png" class="benefits__icon lazy" alt="Affordable Artine Packages">
 					<h5>Affordable</h5>
 					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
 
 				<div class="benefits__item" data-aos="flip-down" data-aos-delay="300">
 					<img data-src="img/icons/image.png" class="benefits__icon lazy" alt="High Quality Images">
-					<h5>High Quality</h5>
+					<h5>High Quality Artine Images</h5>
 					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sunt maxime eaque ea?</p>
 				</div>
 			</div>
@@ -152,7 +134,7 @@
 				<div class="item">
 					<div class="testimonials">
 						<div class="testimonials__img-wrap">
-							<img data-src="img/testimonials/testimonial-1.JPG" class="testimonials__img lazy" alt="ArtiNe's Client">
+							<img src="img/testimonials/testimonial-1.JPG" class="testimonials__img" alt="ArtiNe's Satisfied Client">
 
 							<div class="star-rating-box">
 								<div class="rating" style="width:90%;"></div>
@@ -169,7 +151,7 @@
 				<div class="item">
 					<div class="testimonials">
 						<div class="testimonials__img-wrap">
-							<img data-src="img/testimonials/testimonial-1.JPG" class="testimonials__img lazy" alt="ArtiNe's Client">
+							<img src="img/testimonials/testimonial-1.JPG" class="testimonials__img" alt="ArtiNe's Satisfied Client">
 
 							<div class="star-rating-box">
 								<div class="rating" style="width:90%;"></div>
@@ -186,7 +168,7 @@
 				<div class="item">
 					<div class="testimonials">
 						<div class="testimonials__img-wrap">
-							<img data-src="img/testimonials/testimonial-1.JPG" class="testimonials__img lazy" alt="ArtiNe's Client">
+							<img src="img/testimonials/testimonial-1.JPG" class="testimonials__img" alt="ArtiNe's Satisfied Client">
 
 							<div class="star-rating-box">
 								<div class="rating" style="width:90%;"></div>

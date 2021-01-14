@@ -20,15 +20,6 @@
 		margin: 0 auto 1.5rem;
 	}
 
-	&__about,
-	&__terms,
-	&__navigation,
-	&__contact {
-		flex: 0 0 100%;
-		padding-left: 1.5rem;
-		padding-right: 1.5rem;
-	}
-
 	&__nav {
 
 		&-link {
@@ -52,26 +43,36 @@
 
 /* ############ SUB FOOTER ############ */
 .sub-footer {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
 	background-color: var(--black);
 	color: var(--white);
 	font-size: 1.2rem;
 	letter-spacing: .2rem;
 	padding: 1.5rem;
 
+	@include respond-to(large) {
+		justify-content: space-between;
+	}
+
 	&__copyright {
 		flex: 0 0 100%;
 		text-align: center;
 		margin-top: 2rem;
 		order: 2;
+
+		@include respond-to(large) {
+			flex: 0 0 auto;
+			order: 0;
+			margin-top: 0;
+		}
 	}
 
 	&__legalities {
 		list-style-type: none;
 		display: flex;
+
+		@include respond-to(large) {
+			flex: 0 0 auto;
+		}
 
 		&-link {
 			cursor: pointer;

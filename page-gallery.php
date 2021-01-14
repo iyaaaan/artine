@@ -81,8 +81,8 @@
 			</div>
 			<!-- ./2 -->
 
-			<div class="gallery__item birthday" data-category="birthday" data-src="img/gallery/ana-tavares/img-2.jpg" alt="Photo from Unsplash.com">
-				<img src="img/gallery/ana-tavares/thumb-2.jpg" alt="">
+			<div class="gallery__item birthday" data-category="birthday" data-src="img/gallery/ana-tavares/img-2.jpg">
+				<img src="img/gallery/ana-tavares/thumb-2.jpg" alt="Photo from Unsplash.com">
 				<div class="gallery__overlay"></div>
 			</div>
 
