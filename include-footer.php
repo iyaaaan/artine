@@ -119,4 +119,4 @@
 <script src="js/aos.min.js"></script>
 
 <!--Main Script-->
-<script src="js/main.js"></script>
+<script src="js/main.min.js"></script>

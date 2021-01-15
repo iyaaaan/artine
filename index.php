@@ -52,7 +52,8 @@
 	<!--	About section -->
 	<section id="about-sec">
 		<div class="container">
-			<h2 class="sub-title" data-aos="fade">We are ArtiNe</h2>
+			<!--	title -->
+			<h2 class="title" data-aos="fade">We are ArtiNe</h2>
 			<div class="about-sec" data-aos="fade-up">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In provident dicta odit quis officiis consequatur facere quae quaerat laboriosam ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea modi praesentium illo vero assumenda, sit, atque. Qui voluptatibus esse tempora voluptate quia, possimus enim, ipsa beatae, delectus consequuntur quo in nostrum quos aperiam facere optio culpa ut dolores, deserunt. Harum doloribus minus ad unde minima tenetur modi, voluptates. Ullam, commodi!</p>
 			</div>
@@ -87,7 +88,8 @@
 	<!-- Services section -->
 	<section id="services">
 		<div class="container-full">
-			<h2 class="sub-title" data-aos="fade">Services</h2>
+			<!--	title -->
+			<h2 class="title" data-aos="fade">Services</h2>
 			<div class="flex-center">
 				<div class="services__item" data-aos="fade-right" data-aos-duration="750">
 					<img data-src="img/banners/wedding-banner.jpg" class="img-fit lazy" alt="Wedding Packages">
@@ -118,7 +120,8 @@
 	<!-- Testimonials section -->
 	<section id="testimonials">
 		<div class="container-full relative">
-			<h2 class="sub-title" data-aos="fade">Testimonials</h2>
+			<!--	title -->
+			<h2 class="title" data-aos="fade">Testimonials</h2>
 
 			<!-- background diagonal svg  box-->
 			<svg class="svg-box" viewBox="0 0 500 150" preserveAspectRatio="none">
@@ -194,7 +197,8 @@
 	<!-- Featured section -->
 	<section id="featured">
 		<div class="container-full">
-			<h2 class="sub-title" data-aos="fade">Our Latest Work</h2>
+			<!--	title -->
+			<h2 class="title" data-aos="fade">Our Latest Work</h2>
 
 			<div class="flex-center">
 				<div class="featured__item" data-aos="fade-right">

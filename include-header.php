@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="css/lightgallery.min.css">
 
 <!-- AOS -->
-<link rel="stylesheet" href="css/aos.min.css"x>
+<link rel="stylesheet" href="css/aos.min.css">
 
 <!-- compiled css styles -->
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/main.min.css">

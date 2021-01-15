@@ -1,26 +1,3 @@
-/* ############ SUBTITLE ############ */
-.sub-title {
-	flex: 0 0 100%;
-	margin-bottom: 7.5rem;
-	text-align: center;
-	font-size: var(--font-large);
-	color: #8e440c;
-	font-family: var(--font-title);
-	font-weight: normal;
-	position: relative;
-}
-
-.sub-title::after {
-	content: '';
-	position: absolute;
-	left: calc(50% - 2rem);
-	bottom: -1.3rem;
-	width: 4rem;
-	height: 1px;
-	background-color: #8e440c;
-}
-
-
 // Fits image in its container
 .img-fit {
 	display: block;
@@ -28,10 +5,10 @@
 }
 
 .flex-center {
-	@extend .flex;
-	@extend .justify-center;
-	@extend .align-center;
-	@extend .flex-wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 

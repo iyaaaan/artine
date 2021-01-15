@@ -44,7 +44,7 @@
 		<div class="highlight-banner wedding-banner" id="weddings"></div>
 
 		<div class="container">
-			<div class="sub-title" data-aos="fade">Weddings</div>
+			<div class="title" data-aos="fade">Weddings</div>
 			<div class="package">
 				<div class="package__item" data-aos="zoom-in-right" data-aos-delay="100">
 					<div class="package__name">Diamond Package</div>
@@ -94,7 +94,7 @@
 		<!-- birthday banner -->
 		<div class="highlight-banner birthday-banner" id="birthdays"></div>
 		<div class="container">
-			<div class="sub-title" data-aos="fade">Birthdays</div>
+			<div class="title" data-aos="fade">Birthdays</div>
 			<div class="package">
 				<div class="package__item" data-aos="fade-right" data-aos-delay="100">
 					<div class="package__name">Diamond Package</div>
@@ -143,7 +143,7 @@
 	<section>
 		<div class="highlight-banner baby-banner" id="baby"></div>
 		<div class="container">
-			<h2 class="sub-title" data-aos="fade">Baby Photoshoot</h2>
+			<h2 class="title" data-aos="fade">Baby Photoshoot</h2>
 			<div class="package">
 				<div class="package__item" data-aos="flip-right" data-aos-delay="100">
 					<div class="package__name">Diamond Package</div>
@@ -192,7 +192,7 @@
 	<section>
 		<div class="highlight-banner family-banner"></div>
 		<div class="container">
-			<h2 class="sub-title" data-aos="fade">Family Portrait</h2>
+			<h2 class="title" data-aos="fade">Family Portrait</h2>
 			<div class="package">
 				<div class="package__item" data-aos="zoom-out" data-aos-delay="100">
 					<div class="package__name">Diamond Package</div>
@@ -242,7 +242,7 @@
 	<section>
 		<div class="highlight-banner food-banner"></div>
 		<div class="container">
-			<h2 class="sub-title" data-aos="fade">Food Photography</h2>
+			<h2 class="title" data-aos="fade">Food Photography</h2>
 			<div class="package">
 				<div class="package__item" data-aos="zoom-out" data-aos-delay="100">
 					<div class="package__name">Diamond Package</div>

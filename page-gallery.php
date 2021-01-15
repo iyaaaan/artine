@@ -31,10 +31,11 @@
 	</div>
 
 	<div class="container">
-		<h2 class="sub-title" data-aos="fade">Galería</h2>
+		<!--	title -->
+		<h2 class="title" data-aos="fade">Galería</h2>
 
-		<nav class="gallery-filter mb-1" id="gal-nav" data-aos="zoom-in">
-			<a class="gallery-filter__toggler js-gal-nav" onclick="galNav()">Categories <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+		<nav class="gallery-filter mb-1" data-aos="zoom-in">
+			<a class="gallery-filter__toggler" onclick="galNav()">Categories <i class="fa fa-caret-down" aria-hidden="true"></i></a>
 
 			<div class="gallery-filter__menu">
 				<button class="gallery-filter__btn navbar__link is-active" data-filter="*">Show All</button>
@@ -70,7 +71,7 @@
 				<div class="gallery__overlay"></div>
 			</div>
 
-			<div class="gallery__item pre-nup" data-category="pre-nup" data-src="img/gallery/vitor-pinto-3/img-1.jpg" alt="">
+			<div class="gallery__item pre-nup" data-category="pre-nup" data-src="img/gallery/vitor-pinto-3/img-1.jpg">
 				<img src="img/gallery/vitor-pinto-3/thumb-1.jpg" alt="Photo from Unsplash.com">
 				<div class="gallery__overlay"></div>
 			</div>

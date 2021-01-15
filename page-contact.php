@@ -30,7 +30,8 @@
 	</div>
 
 	<div class="container-full" id="contact">
-		<h2 class="sub-title" data-aos="fade">How Can We Help?</h2>
+		<!--	title -->
+		<h2 class="title" data-aos="fade">How Can We Help?</h2>
 
 		<form action="send-email.php" method="POST" class="contact-form">
 			<div class="form-fields">
@@ -80,9 +81,10 @@
 		</form>
 
 
+		<!-- Google Map -->
 		<div class="flex-center contact-info">
 			<div class="contact-info__item">
-				<iframe class="google-maps lazy" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.6887497394337!2d122.9446994680506!3d14.095542007222564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3398aef000000003% 3A0x7485dbb588ce057b!2sD%20House%20Hotel%20Camarines%20Norte!5e0!3m2!1sen!2sph!4v1590473732780!5m2!1sen!2sph" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<iframe class="google-maps lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.6887497394337!2d122.9446994680506!3d14.095542007222564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3398aef000000003% 3A0x7485dbb588ce057b!2sD%20House%20Hotel%20Camarines%20Norte!5e0!3m2!1sen!2sph!4v1590473732780!5m2!1sen!2sph" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
 			<div class="contact-info__item">
 				<div class="mb-2">
@@ -99,8 +101,8 @@
 					<p>+(63) 929- 8211- 353</p>
 				</div>
 			</div>
-		</div>
-	</div>
+		</div> <!-- ./map -->
+	</div> <!-- container -->
 
 	<?php include('include-footer.php') ?>
 

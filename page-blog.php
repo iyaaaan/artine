@@ -30,12 +30,13 @@
 	</div>
 
 	<div class="container">
-		<!-- subtitle -->
-		<h2 class="sub-title" data-aos="fade">Our Blog</h2>
+		<!-- title -->
+		<h2 class="title" data-aos="fade">Our Blog</h2>
 
 		<!-- blog -->
 		<div class="blog">
 
+			<!-- blog item -->
 			<a href="page-blog1.php" id="jose-maria" class="blog__item" data-aos="fade" data-aos-delay="100">
 				<img data-src="img/gallery/kendra-allen/thumb-1.jpg" alt="Photo by: Kendra Allen on Unsplash" class="img-fit lazy">
 

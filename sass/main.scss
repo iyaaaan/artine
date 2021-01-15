@@ -5,7 +5,7 @@
 @import 'base/mixins';
 @import 'base/animations';
 @import 'base/utilities';
-
+@import 'base/typography';
 
 /* ############ COMPONENTS ############ */
 @import 'components/components';
@@ -29,6 +29,3 @@
 @import 'pages/error404';
 @import 'pages/privacy';
 @import 'pages/terms';
-
-/* ############ MODALS ############ */
-@import 'modals/_privacy';

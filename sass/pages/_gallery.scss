@@ -9,11 +9,11 @@
 	overflow: hidden;
 	transition: all .3s ease;
 
-	& svg {
+	& i {
 		transition: all .3s ease;
 	}
 
-	&.is-active svg {
+	&.is-active i {
 		transform: rotate(180deg);
 	}
 
@@ -55,8 +55,6 @@
 	padding: 1.5rem;
 	min-width: 110px;
 	outline: none;
-
-	&:hover {}
 
 	&.is-active {
 		pointer-events: none;

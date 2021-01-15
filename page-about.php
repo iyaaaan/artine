@@ -30,7 +30,8 @@
 	</div>
 
 	<div class="container">
-		<h2 class="sub-title" data-aos="fade">Our Story</h2>
+		<!--	title -->
+		<h2 class="title" data-aos="fade">Our Story</h2>
 		<div class="our-story" data-aos="fade-up">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eaque porro odit, nihil officia quisquam recusandae ducimus enim voluptatum quos, aut minus adipisci tenetur consectetur nulla! Vero quos eum expedita culpa. Consequatur dignissimos nisi, eius cum mollitia, accusantium ipsum sit aliquid rem laborum illum nulla asperiores alias magni molestiae aliquam. Nam quo, assumenda, iste quos quidem, architecto dolores rem, neque illum nulla harum repudiandae nihil voluptates atque nostrum et porro similique aut dicta eligendi laboriosam eum? Inventore, harum eius impedit.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit in consequuntur repellat iusto quod officia obcaecati excepturi delectus pariatur rerum quibusdam nostrum autem, soluta sint debitis fuga culpa saepe reiciendis, eligendi id perspiciatis, ducimus optio! Eius natus, quasi, officia dolorem tempora omnis ad autem doloribus delectus, ea accusantium obcaecati assumenda!</p>
@@ -40,27 +41,26 @@
 	<!--	our team -->
 	<section>
 		<div class="container">
-			<h2 class="sub-title" data-aos="fade">Meet the Team</h2>
+			<h2 class="title" data-aos="fade">Meet the Team</h2>
 
 			<div class="team">
 
 				<!-- team card -->
 				<div class="team-card" data-aos="fade-right">
-					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit cursor-pointer team-1 lazy" data-target="member-1" onclick="openTeamModal(this);">
+					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit team-img lazy" data-target="member-1" onclick="openTeamModal(this);">
 
-					<div class="team-card__info team-card__info--ltr">
+					<div class="py-1">
 						<span class="team-card__name">JUAN DELA CRUZ Jr.</span>
 						<span class="team-card__role">Photographer | Videographer</span>
 
 					</div>
 				</div>
 
-
 				<!-- team card -->
 				<div class="team-card" data-aos="fade-left">
-					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit cursor-pointer team-1 lazy" data-target="member-2" onclick="openTeamModal(this);">
+					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit team-img lazy" data-target="member-2" onclick="openTeamModal(this);">
 
-					<div class="team-card__info team-card__info--rtl">
+					<div class="py-1">
 						<span class="team-card__name">JUAN DELA CRUZ II</span>
 						<span class="team-card__role">Photographer | Videographer</span>
 					</div>
@@ -68,9 +68,9 @@
 
 				<!-- team card -->
 				<div class="team-card" data-aos="fade-right">
-					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit cursor-pointer team-1 lazy" data-target="member-3" onclick="openTeamModal(this);">
+					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit team-img lazy" data-target="member-3" onclick="openTeamModal(this);">
 
-					<div class="team-card__info team-card__info--ltr">
+					<div class="py-1">
 						<span class="team-card__name">JUAN DELA CRUZ III</span>
 						<span class="team-card__role">Photographer | Videographer</span>
 					</div>
@@ -78,9 +78,9 @@
 
 				<!-- team card -->
 				<div class="team-card" data-aos="fade-right">
-					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit cursor-pointer team-1 lazy" data-target="member-4" onclick="openTeamModal(this);">
+					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit team-img lazy" data-target="member-4" onclick="openTeamModal(this);">
 
-					<div class="team-card__info team-card__info--rtl">
+					<div class="py-1">
 						<span class="team-card__name">JUAN DELA CRUZ Sr.</span>
 						<span class="team-card__role">Photographer | Videographer</span>
 					</div>
@@ -88,9 +88,9 @@
 
 				<!-- team card -->
 				<div class="team-card" data-aos="fade-left">
-					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit cursor-pointer team-1 lazy" data-target="member-5" onclick="openTeamModal(this);">
+					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit team-img lazy" data-target="member-5" onclick="openTeamModal(this);">
 
-					<div class="team-card__info team-card__info--rtl">
+					<div class="py-1">
 						<span class="team-card__name">JUAN DELA CRUZ V</span>
 						<span class="team-card__role">Photographer | Videographer</span>
 					</div>
@@ -98,9 +98,9 @@
 
 				<!-- team card -->
 				<div class="team-card" data-aos="fade-right">
-					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit cursor-pointer team-1 lazy" data-target="member-6" onclick="openTeamModal(this);">
+					<img data-src="img/team/team-1.jpg" alt="Juan Dela Cruz Jr." class="img-fit team-img lazy" data-target="member-6" onclick="openTeamModal(this);">
 
-					<div class="team-card__info team-card__info--rtl">
+					<div class="py-1">
 						<span class="team-card__name">JUAN DELA CRUZ VI</span>
 						<span class="team-card__role">Photographer | Videographer</span>
 					</div>
@@ -111,8 +111,9 @@
 	</section>
 
 	<section>
-		<div class="container-full flex-center">
-			<h2 class="sub-title">Why ArtiNe?</h2>
+		<div class="container-full">
+			<!--	title -->
+			<h2 class="title">Why ArtiNe?</h2>
 
 			<div class="flex-center mb-5">
 				<div class="featured__item">
@@ -128,22 +129,24 @@
 				</div>
 			</div>
 
-			<div class="benefits__item">
-				<img data-src="img/icons/pro-cam.png" class="benefits__icon lazy" alt="Professional Photographers">
-				<h5>Professional</h5>
-				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, officia!</p>
-			</div>
+			<div class="benefits">
+				<div class="benefits__item">
+					<img data-src="img/icons/pro-cam.png" class="benefits__icon lazy" alt="Professional Photographers">
+					<h5>Professional</h5>
+					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, officia!</p>
+				</div>
 
-			<div class="benefits__item">
-				<img data-src="img/icons/cheap-price.png" class="benefits__icon lazy" alt="Affordable">
-				<h5>Affordable</h5>
-				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
+				<div class="benefits__item">
+					<img data-src="img/icons/cheap-price.png" class="benefits__icon lazy" alt="Affordable">
+					<h5>Affordable</h5>
+					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
 
-			<div class="benefits__item">
-				<img data-src="img/icons/image.png" class="benefits__icon lazy" alt="High Quality Images">
-				<h5>High Quality</h5>
-				<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sunt maxime eaque ea?</p>
+				<div class="benefits__item">
+					<img data-src="img/icons/image.png" class="benefits__icon lazy" alt="High Quality Images">
+					<h5>High Quality</h5>
+					<p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, sunt maxime eaque ea?</p>
+				</div>
 			</div>
 
 			<div class="stats">

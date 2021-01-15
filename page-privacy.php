@@ -26,7 +26,8 @@
 
 	<div class="container">
 		<div class="privacy">
-			<h2 class="sub-title">Privacy Policy</h2>
+			<!--	title -->
+			<h2 class="title">Privacy Policy</h2>
 
 			<h5 class="font-title">What information will be collected from you?</h5>
 			<ul class="privacy__item">

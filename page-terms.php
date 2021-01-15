@@ -26,7 +26,8 @@
 
 	<div class="container">
 		<div class="terms">
-			<h2 class="sub-title">Terms and Conditions</h2>
+			<!--	title -->
+			<h2 class="title">Terms and Conditions</h2>
 			<ul class="text-justify">
 				<li>
 					<p>The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p>

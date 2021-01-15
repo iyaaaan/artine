@@ -12,23 +12,28 @@ $(function () {
 	});
 });
 
-//datepicker
+//hides/shows navbar on scroll down/up
 $(function () {
-	$(function () {
-		$(".datepicker").datepicker({
-			minDate: '0',
-			maxDate: '+3Y'
-			//changeMonth: true,
-			//changeYear: true
-		});
-	});
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function () {
+		var currentScrollPos = window.pageYOffset;
+		$('.js-navbar').css('position', 'fixed');
+
+		if (prevScrollpos > currentScrollPos) {
+			$(".js-navbar").css('top', '0px');
+		} else {
+			$('.js-navbar').css('top', '-200px');
+			$('.js-navbar').css('position', 'fixed');
+		}
+		prevScrollpos = currentScrollPos;
+	}
 });
 
-//Open Navigation bar
+
+//Open Navigation bar on mobile
 function toggleNavbar() {
 	var opened = $(".js-navbar__menu").hasClass("is-opened");
 	var toggled = $(".js-navbar__bar").hasClass("is-toggled");
-
 
 	if (opened === false && toggled === false) {
 		$(".js-navbar__menu").addClass("is-opened");
@@ -40,39 +45,7 @@ function toggleNavbar() {
 	}
 }
 
-
-//change bg-color of navbar on scroll
-//$(function () {
-//	$(document).scroll(function () {
-//		var nav = $(".js-navbar-cont ainer");
-//		nav.toggleClass('is-scrolled', $(this).scrollTop() > nav.height());
-//	});
-//});
-
-
-//hides/shows navbar on scroll
-$(function () {
-	var prevScrollpos = window.pageYOffset;
-	window.onscroll = function () {
-		var currentScrollPos = window.pageYOffset;
-		//	if ($(document).scrollTop() == 0) {
-		//		$('.js-navbar').css('position', 'relative');
-		//	} else {
-		$('.js-navbar').css('position', 'fixed');
-
-		if (prevScrollpos > currentScrollPos) {
-			$(".js-navbar").css('top', '0px');
-		} else {
-			$('.js-navbar').css('top', '-200px');
-			$('.js-navbar').css('position', 'fixed');
-		}
-		prevScrollpos = currentScrollPos;
-		//	}
-	}
-});
-
-
-//hides navbar when clicked outside
+//close navbar when clicked outside
 $(function () {
 	$(document).click(function (event) {
 		var clickover = $(event.target);
@@ -86,7 +59,7 @@ $(function () {
 	});
 });
 
-//hides navbar-menu on scroll
+//close navbar-menu on scroll
 $(function () {
 	$(document).scroll(function () {
 		$(".js-navbar__menu").removeClass('is-opened');
@@ -94,23 +67,24 @@ $(function () {
 	});
 });
 
-//hides navbar & modal when pressed ESC key
+//close navbar when pressed ESC key
 $(document).keyup(function (e) {
 	var opened = $(".js-navbar__menu").hasClass("is-opened");
 	var toggled = $(".js-navbar__bar").hasClass("is-toggled");
-	var shown = $(".modal").hasClass("is-shown");
-	var teamModal = $(".team-modal").hasClass("is-shown");
 
 	if (e.keyCode == 27) { // escape key maps to keycode `27`
 		if (opened === true && toggled === true) {
 			$(".js-navbar__menu").removeClass("is-opened");
 			$(".js-navbar__bar").removeClass("is-toggled");
 		}
+	}
+});
 
-		if (shown === true) {
-			$(".modal").removeClass("is-shown");
-			$("body").removeClass("overflow-hidden");
-		}
+//hides team modal when pressed ESC key
+$(document).keyup(function (e) {
+	var teamModal = $(".team-modal").hasClass("is-shown");
+
+	if (e.keyCode == 27) { // escape key maps to keycode `27`
 
 		if (teamModal === true) {
 			$(".team-modal").removeClass("is-shown");
@@ -118,6 +92,30 @@ $(document).keyup(function (e) {
 			$('body').removeClass('overflow-hidden');
 		}
 	}
+});
+
+//hides team modal when clicked outside
+$(function () {
+	$(document).click(function (event) {
+		var clickover = $(event.target);
+		var teamModal = $(".team-modal").hasClass("is-shown");
+
+		if (teamModal === true && !clickover.hasClass("team-modal") && !clickover.hasClass("team-modal__slide")) {
+			$(".team-modal").removeClass("is-shown");
+			$(".team-modal__slide").removeClass("is-shown");
+			$("body").removeClass("overflow-hidden");
+		}
+	});
+});
+
+//initialize datepicker
+$(function () {
+	$(".datepicker").datepicker({
+		minDate: '0',
+		maxDate: '+3Y'
+		//changeMonth: true,
+		//changeYear: true
+	});
 });
 
 
@@ -163,7 +161,7 @@ $(function () {
 	});
 });
 
-
+//gallery
 $(function () {
 	var $grid = $('.gallery').imagesLoaded(function () {
 		$grid.isotope({
@@ -208,47 +206,21 @@ $(function () {
 	});
 });
 
-//show gallery filter
-$(function () {
-	function galNav() {
-		var opened = $(".gallery-filter__menu").hasClass("is-active");
+//show gallery filter on mobile
+function galNav() {
+	var opened = $(".gallery-filter__menu").hasClass("is-active");
 
-		if (opened === false) {
-			$(".gallery-filter__menu").addClass("is-active");
-			$(".gallery-filter__toggler").addClass("is-active");
+	if (opened === false) {
+		$(".gallery-filter__menu").addClass("is-active");
+		$(".gallery-filter__toggler").addClass("is-active");
 
-		} else {
-			$(".gallery-filter__menu").removeClass("is-active");
-			$(".gallery-filter__toggler").removeClass("is-active");
-		}
+	} else {
+		$(".gallery-filter__menu").removeClass("is-active");
+		$(".gallery-filter__toggler").removeClass("is-active");
 	}
-});
+}
 
-//hides modal when clicked outside
-$(function () {
-	$(document).click(function (event) {
-		var clickover = $(event.target);
-		var modal = $(".modal").hasClass("is-shown");
-		var teamModal = $(".team-modal").hasClass("is-shown");
-
-		if (modal === true && clickover.hasClass("modal")) {
-			$(".modal").removeClass("is-shown");
-			$("body").removeClass("overflow-hidden");
-		}
-
-		if (teamModal === true && !clickover.hasClass("team-modal") && !clickover.hasClass("team-modal__slide")) {
-			$(".team-modal").removeClass("is-");
-			$("body").removeClass("overflow-hidden");
-		}
-	});
-});
-
-
-
-
-
-
-//shows back to top button after scrolling 500px
+//shows back to top button after scrolling 800px
 $(document).scroll(function () {
 	var y = $(this).scrollTop();
 	if (y > 800) {
@@ -258,7 +230,7 @@ $(document).scroll(function () {
 	}
 });
 
-//owl carousel
+//initialize owl-carousel for featured-blogs
 $(function () {
 	$('.owl-carousel:not(".test-owl")').owlCarousel({
 		loop: true,
@@ -286,6 +258,7 @@ $(function () {
 	});
 });
 
+//initialize owl-carousel for testimonials
 $(function () {
 	$('.test-owl').owlCarousel({
 		loop: true,
@@ -307,12 +280,14 @@ $(function () {
 	});
 });
 
+//initialize jQuery Lazy Load
 $(function () {
 	$(function () {
 		$('.lazy').lazy();
 	});
 });
 
+//initialize fotorama
 $(function () {
 	$('.fotorama').fotorama({
 		dataWidth: '50%',
