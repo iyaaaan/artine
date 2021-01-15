@@ -2821,7 +2821,8 @@ textarea:not(:placeholder-shown) {
   line-height: 2;
   text-align: justify;
   list-style: circle;
-  margin: 5trm auto;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
